@@ -1,0 +1,20 @@
+These are notes from class 2/12 about the project
+
+M(x) = coefficient polynomial
+G(x) = generator polynomial where the generator is of n bits
+
+1. m^r-1 * M(x)
+2. R(x) =  (m^r-1 * M(x)) / (G(x))
+3. T(x) = x^r-1 * M(x) - R(x)
+
+<Verifying>
+
+T(x) / G(x) should be remainder 0
+
+//Errors 
+T(x) + E(x) / G(x) , where E(x) is the string of bits that could be added to T(x) to create an error 
+
+1-bit errors - G(x) needs at least two terms
+2-bit errors - G(x) needs at least two terms
+
+
